@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-function base64_encode(file) {
+function base64Encode(file) {
     const result = fs.readFileSync(file, 'base64');
     return result;
 }
 
-console.log(base64_encode('image.png'));
+console.log(base64Encode('image.png'));
